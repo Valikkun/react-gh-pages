@@ -1,0 +1,61 @@
+@font-face {
+	font-family: 'Karla';
+	src: url('./fonts/Karla-Regular.ttf');
+	src: url('./fonts/Karla-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Karla';
+	src: url('./fonts/Karla-Bold.ttf');
+	src: url('./fonts/Karla-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Karla';
+	src: url('./fonts/Karla-BoldItalic.ttf');
+	src: url('./fonts/Karla-BoldItalic.ttf') format('truetype');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Karla';
+	src: url('./fonts/Karla-Italic.ttf');
+	src: url('./fonts/Karla-Italic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+.background {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #ccc;
+}
+
+.container {
+	position: absolute;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 375px;
+}
+
+@media (max-width: 375px) {
+	.container {
+		width: 95%;
+	}
+}
